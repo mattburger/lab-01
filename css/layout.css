@@ -65,21 +65,26 @@
 
 /*desktop*/
 @media only screen and (min-width: 768px){
+  .master{
+    margin: 0 auto;
+    width: 960px;
+    height: 700px;
+    border: none;
+  }
   .header{
     margin: 0 auto;
     background-color: aliceblue;
     padding: 5px;
-    width: 960px;
-    height: 100px;
+    width: 100%;
+    height: 14.28%;
     text-align: center;
   }
   .left-stack{
     margin: 0 auto;
-    width: 200px;
-    height: 600px;
+    width: 20.83%;
+    height: 85.71%;
     background-color: rgb(79, 162, 195);
     float: left;
-    clear: left;
     text-align: center;
   }
   .stack{
@@ -120,7 +125,7 @@
   .bottom-stack{
     /* margin: 0 auto; */
     clear: left;
-    float: left;
+    /* float: left; */
     border: none;
     display: flex;
     width: 380px;
